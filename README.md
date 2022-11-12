@@ -7,13 +7,13 @@ automata term projects powerpuffboys
 # How to run
 long command
 ```
-jflex lexer.flex
+jflex lexer.lex
 javac Lexer.java
 java Lexer input1.txt
 ```
 short hand code
 ```
-jflex lexer.flex && javac Lexer.java && java Lexer input1.txt
+jflex lexer.lex && javac Lexer.java && java Lexer input1.txt
 ```
 
 
